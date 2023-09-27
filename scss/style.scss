@@ -1,0 +1,44 @@
+/* Imports */
+
+/* -----------------------------------------*/
+
+@import './reset.scss';
+
+/* -----------------------------------------*/
+
+/* Vars */
+
+/* -----------------------------------------*/
+
+$black: #000000;
+$white: #ffffff;
+$bg-light: #f8f9fa;
+$spacing-small: 10px;
+$spacing-medium: 15px;
+$spacing-large: 30px;
+
+/* -----------------------------------------*/
+
+/* Global */
+
+body {
+   line-height: 1.7;
+   background-color: #f8f9fa;
+}
+
+.none {
+	overflow: hidden;
+}
+
+::-webkit-scrollbar {
+   width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: rgba(0, 0, 0, 0.726);
+   border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+   background-color: white;
+}
